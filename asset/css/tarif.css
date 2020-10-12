@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    color: white
+}
+
+nav a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+    font-size: 28px;
+}
+
+nav a:hover {
+    color: #840229;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    text-shadow: 1px 1px 2px white
+}
+
+span.navbar-toggler-icon {
+    color: white;
+    background: white
+}
+
+nav {
+    float: left
+}
+
+
+.ecran {
+    max-height: 400px
+}
+
+main {
+    background: white;
+    height: auto;
+    width: 100%;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #840229;
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    clear: both;
+
+
+}
+
+section#foot ul {
+    float: left;
+    display: block;
+    padding-left: 20px;
+    list-style: none;
+}
+
+section#foot ul li a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+
+}
+div.rs img {
+    height: 50px;
+    width: 50px;
+    float: right;
+    /*    margin: 1%;*/
+}
+
+h2 {
+    color: white;
+    font-style: normal;
+    margin: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #ffd700;
+    text-decoration: underline dotted #ffd700;
+
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    margin-top: 30px
+}
+
+section.pied,
+section.main {
+    background: radial-gradient(#840229, #470031);
+    color: #ffd700;
+    font-family: 'Niconne', cursive;
+    width: 49%;
+    height: auto;
+    padding: 2%;
+    display: block;
+    font-size: 24px;
+    float: left
+}
+
+
+section.main ul,
+div#forfait section.pied ul,
+    {
+    padding: 100px;
+    list-style: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 40px;
+}
+
+h4 {
+    font-size: 28px;
+    color: white;
+    margin: 30px 0px
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 200px;
+    float: right;
+    left: 95%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    padding: .5px;
+    background: none;
+    border: none
+}

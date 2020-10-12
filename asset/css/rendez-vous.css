@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    color: white
+}
+
+nav a {color: white;
+text-shadow:1px 1px 2px black;
+font-family:  'Niconne', cursive;
+    font-size: 28px;}
+nav a:hover {
+    color: #840229;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    text-shadow: 1px 1px 2px white
+}
+
+span.navbar-toggler-icon{color:white;
+background: white}
+
+nav{float:left}
+
+
+.ecran {
+    max-height: 400px
+}
+
+main {
+    background: white;
+    /*    margin: 2%*/
+}
+
+h1 {
+    margin: auto;
+    font-family: cursive;
+    font-family: 'Niconne', cursive;
+    color: #840229;
+    font-size: 10%
+}
+
+main {
+    margin: auto;
+    width: 70%;
+
+}
+
+section.intro {
+    width: 100%;
+    margin: auto
+}
+
+label {
+    color: #840229;
+    font-family: 'Niconne', cursive;
+    font-size: 25px
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding: 2% 5%;
+    background:
+
+}
+
+input,
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
+    margin: 20px
+}
+
+
+
+div.radio,
+div.champs {
+    width: 90%;
+    float: left;
+    margin-top: 20px
+}
+
+
+div.radio label {
+    width: 15%;
+    float: left;
+    text-align: center
+}
+
+
+div.radio input[type="radio"] {
+    float: left;
+    width: 20px;
+    height: 20px
+}
+
+div.champs,
+div.spam {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px
+}
+
+div.champs input {
+    width: 50%
+}
+
+div.champs label {
+    margin-right: 7px
+}
+
+div.spam label {
+    margin-right: 2px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    font-size: 20px;
+    transition: background .6s;
+    margin: 5%;
+    margin-left: 40%;
+    background: #840229;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+    font-size: 28px;
+    line-height: 20px
+}
+
+input:hover[type="submit"] {
+    color: #840229;
+    background: white;
+    border-color: #840229;
+  }
+
+footer {
+    width: 100%;
+    height: auto;
+    clear: both;
+    background: #840229;
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+section#foot ul {
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+    list-style: none;
+}
+
+section#foot ul li a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+
+}
+
+main {
+    width: 100%;
+    height: 100%
+}
+
+div.rs img {
+    height: 50px;
+    width: 50px;
+    float: right;
+    /*    margin: 1%;*/
+}
+
+    #myBtn {
+        position: fixed;
+        bottom: 200px;
+        float: right;
+        left: 95%;
+        max-width: 30px;
+        width: 100%;
+        font-size: 12px;
+        padding: .5px;
+        background: none;
+        border: none
+    }
+
+
+input:invalid{border-color: #ffd700;box-shadow: 0 0 2px 1px white}
+
+input:valid{border-color: #840229; box-shadow: inset 0 0 2px 1px #840229}
+
+/*styliser les etapes de validation */
+
+/*
+input:invalid{border-color: red;box-shadow: 0 0 2px 1px red}
+
+input:valid{border-color: greenyellow; box-shadow: inset 0 0 2px 1px greenyellow}
+*/
+
+/*inset = ombrage interne */

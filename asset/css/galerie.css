@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    color: white
+}
+
+nav a {color: white;
+text-shadow:1px 1px 2px black;
+font-family:  'Niconne', cursive;
+    font-size: 28px;}
+nav a:hover {
+    color: #840229;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    text-shadow: 1px 1px 2px white
+}
+
+span.navbar-toggler-icon{color:white;
+background: white}
+
+nav{float:left}
+
+
+main{
+    width: 100%;
+    height:auto
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    clear: both;
+    background: #840229;
+    color: white;
+    padding: 2% 2%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+section#foot ul {
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+    list-style: none;
+}
+
+section#foot ul li a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Niconne', cursive;
+
+}
+div.rs img {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin: 1.%;
+}
+
+
+
+
+#galerie-1:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#galerie-2:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#galerie-3:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#galerie-1:target,
+#galerie-2:target,
+#galerie-3:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility 1s;
+    ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+article figure {
+    
+    float: left;
+    display: block;
+    margin-top: 20px
+}
+
+article#galerie-1 figure img {
+
+    height: 300px;
+    width: 300px
+
+}
+
+article#galerie-2 figure img {
+
+    height: 300px;
+    width: 300px
+
+}
+
+article#galerie-3 figure img {
+
+    height: 300px;
+    width: 300px
+
+}
+.bloc {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+   
+
+}
+
+
+.bloc ul  {
+    height:180px;
+    width: 99%;
+    top: -30px;
+    position: absolute;
+/*    margin-left: 15%;*/
+    font-family: 'Niconne', cursive;
+    font-size: 24px;
+    z-index: 10
+}
+
+
+.bloc ul a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 31%;
+    text-align: center;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid gray;
+    color: white;
+    background: radial-gradient(#840229, #470031);
+    margin-left: 20px
+}
+
+    #myBtn {
+        position: fixed;
+        bottom: 200px;
+        float: right;
+        left: 95%;
+        max-width: 30px;
+        width: 100%;
+        font-size: 12px;
+        padding: .5px;
+        background: none;
+        border: none
+    }
